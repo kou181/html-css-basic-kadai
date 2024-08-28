@@ -1,0 +1,85 @@
+#top{
+    display: flex;
+    width: 800px;   
+    background-color: #dcc9f4;
+    margin: 20px auto;
+    justify-content: center; 
+    align-items: center;
+    /* margin-right: auto;
+    margin-left: auto;  */
+    }
+
+
+.top-child {
+    width: 20%;
+    background-color: #ffd9df;
+    display: flex; /* 子要素をFlexboxで配置 */
+    justify-content: center; /* 子要素内のテキストを水平中央揃えに */
+    align-items: center; /* 子要素内のテキストを垂直中央揃えに */
+    text-align: center;
+}
+
+#middle{
+    width: 800px;
+    height: 800px;
+    margin: 20px auto;
+    background-color: #ffd9df;
+   
+}
+
+
+#middle-child01{
+width: 200px;
+height: 200px;
+background-color: #87ceeb;
+position: relative;
+top: 100px;
+left: 100px;
+}
+
+#middle-child02{
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+    position: relative;
+    top: 100px;
+    left: 300px;
+
+    }
+    
+    #middle-child03{
+        width: 200px;
+        height: 200px;
+        background-color: #87ceeb;
+        position: relative;
+top: 100px;
+left: 500px;
+}
+        
+#bottom{
+    width: 800px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #87ceeb;
+}
+
+#bottom-child01{
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    }
+#bottom-child02{
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    position: relative;
+    left: 200px;
+    }
+#bottom-child03{
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+    position: relative;
+    left:400px;   
+}
+                        
