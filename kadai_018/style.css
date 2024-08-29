@@ -1,21 +1,15 @@
 #top{
-    display: flex;
     width: 800px;   
     background-color: #dcc9f4;
     margin: 20px auto;
-    justify-content: center; 
-    align-items: center;
-    /* margin-right: auto;
-    margin-left: auto;  */
+    text-align: center;
     }
 
 
 .top-child {
+    display: inline-block;
     width: 20%;
     background-color: #ffd9df;
-    display: flex; /* 子要素をFlexboxで配置 */
-    justify-content: center; /* 子要素内のテキストを水平中央揃えに */
-    align-items: center; /* 子要素内のテキストを垂直中央揃えに */
     text-align: center;
 }
 
