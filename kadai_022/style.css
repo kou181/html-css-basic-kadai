@@ -10,7 +10,7 @@ p a{
 header{
     margin-bottom: 20px;
     background-color: rgb(244, 79, 79);
-    align-items: center;
+    text-align: center;
 }
 main{
     margin: 10px;
@@ -73,7 +73,6 @@ a:hover{
         font-size: 20px;
     }
     #parent{
-        display: flex;
         flex-direction: column;      
     }
 }
